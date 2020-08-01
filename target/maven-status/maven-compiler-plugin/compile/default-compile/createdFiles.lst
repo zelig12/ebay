@@ -1,0 +1,12 @@
+com\gm\game\service\UserQuestionService.class
+com\gm\game\dal\GameBoardDal.class
+com\gm\game\dal\UserQuestionDal.class
+com\gm\game\dto\UserScoreDto.class
+com\gm\game\controller\GameController.class
+com\gm\game\GameApplication.class
+com\gm\game\dto\AnswerResponseDto.class
+com\gm\game\dto\AnswerDto.class
+com\gm\game\service\GameManagerService.class
+com\gm\game\model\UserPoints.class
+com\gm\game\service\QuestionService.class
+com\gm\game\service\GameBoardService.class
