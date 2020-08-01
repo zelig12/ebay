@@ -1,4 +1,4 @@
-package com.gm.game.controller;
+package com.gm.game;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,17 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GameApplication {
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(GameApplication.class, args);
 	}
 
-	@GetMapping("/hello")
-	public String hello(@RequestParam(value = "User name", defaultValue = "World") String name) {
-		return String.format("Hello %s!", name);
-	}
-
-	@GetMapping("/answer")
-	public String answerQuestion(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return String.format("Hello %s!", name);
-	}
 }
